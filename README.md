@@ -8,6 +8,9 @@ Built for the AffordMed Campus Hiring Evaluation — Backend Track.
 - **notification_system_design.md** — (just the file structure) System design responses covering REST API design, database schema, query optimization, caching strategy, and reliable notification delivery (Stages 1–5).
 - **vehicle_maintence_scheduler** — (just the file structure) Folder created as part of the pre-test setup.
 
+## NOTES
+- This submission covers the Backend Track only (Stages 6). Stage 7 frontend is not included.
+
 ## Tech Stack
 
 - Node.js
@@ -28,6 +31,3 @@ Base URL: `http://localhost:3000`
 | GET | `/api/notifications/priority` | Get top 10 priority notifications |
 
 Priority is calculated based on notification type weight (Placement > Result > Event) and recency.
-
-## NOTES
-- This submission covers the Backend Track only (Stages 6). Stage 7 frontend is not included.
