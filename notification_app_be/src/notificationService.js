@@ -34,7 +34,10 @@ function calculateScore(notification) {
 }
 
 async function getTopNNotifications(n = 10) {
-  const notifications = await fetchNotifications(1, 50);
+  const notifications = await fetchNotifications(1, 10);
+
+  console.log("Total fetched:", notifications.length); 
+  console.log("Sample:", notifications[0]); 
 
   const scored = notifications.map((notif) => ({
     ...notif,
