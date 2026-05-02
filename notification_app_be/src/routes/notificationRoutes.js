@@ -25,6 +25,9 @@ router.get("/priority", async (req, res) => {
     res.json({ success: true, notifications: topNotifications });
 
   } catch (err) {
+    console.log("ERROR MESSAGE:", err.message);
+    console.log("ERROR RESPONSE:", err.response?.data);
+    console.log("ERROR STATUS:", err.response?.status);
     res.status(500).json({ success: false, message: err.message });
   }
 });
