@@ -29,5 +29,5 @@ Base URL: `http://localhost:3000`
 
 Priority is calculated based on notification type weight (Placement > Result > Event) and recency.
 
-##NOTES
+## NOTES
 - This submission covers the Backend Track only (Stages 6). Stage 7 frontend is not included.
