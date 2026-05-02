@@ -4,10 +4,9 @@ Built for the AffordMed Campus Hiring Evaluation — Backend Track.
 
 ## What's Inside
 
-- **logging_middleware** — A reusable logging package that sends structured logs to the AffordMed evaluation server. Built with Node.js and TypeScript.
 - **notification_app_be** — A REST API built with Node.js and Express that fetches and prioritizes notifications from the AffordMed API.
-- **notification_system_design.md** — System design responses covering REST API design, database schema, query optimization, caching strategy, and reliable notification delivery (Stages 1–5).
-- **vehicle_maintence_scheduler** — Folder created as part of the pre-test setup.
+- **notification_system_design.md** — (just the file structure) System design responses covering REST API design, database schema, query optimization, caching strategy, and reliable notification delivery (Stages 1–5).
+- **vehicle_maintence_scheduler** — (just the file structure) Folder created as part of the pre-test setup.
 
 ## Tech Stack
 
